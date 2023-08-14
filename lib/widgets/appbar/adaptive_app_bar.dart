@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class AdaptiveAppBar extends StatelessWidget
-    with PreferredSizeWidget, ObstructingPreferredSizeWidget {
+    implements PreferredSizeWidget, ObstructingPreferredSizeWidget {
   const AdaptiveAppBar({
     super.key,
     required this.iOS,
